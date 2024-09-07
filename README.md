@@ -8,17 +8,17 @@ Por ser simples, decidi incluir apenas algumas informações, em que a grande ma
 
 ## As Tecnologias
 As tecnologias utilizadas no projeto são aquelas ensinadas durante a Imersão Dev da Alura, ou seja:
-* **HTML** (extensão .html);
-* **CSS** (extensão .css);
-* **JavaScript** (extesão .js).
+* **HTML** (extensão `.html`);
+* **CSS** (extensão `.css`);
+* **JavaScript** (extesão `.js`).
 
 ## Estrutura do projeto
 Por ser meu primeiro projeto, a estrutura da aplicação é simples:
-* **index.html**: Arquivo HTML para construção do site em si;
-* **style.css**: Arquivo CSS utilizado para estilizar o texto;
-* **app.js**: Arquivo JavaScript com a lógica de programação por trás do site;
-* **dados.js**: Outro arquivo JavaScript com a base de dados do site;
-* images: Uma pasta que contém algumas imagens para deixar o site mais agradável visualmente.
+* `index.html`: Arquivo HTML para construção do site em si;
+* `style.css`: Arquivo CSS utilizado para estilizar o texto;
+* `app.js`: Arquivo JavaScript com a lógica de programação por trás do site;
+* `dados.js`: Outro arquivo JavaScript com a base de dados do site;
+* `images`: Uma pasta que contém algumas imagens para deixar o site mais agradável visualmente.
 
 ## Os próximos passos
 Sendo o primeiro projeto, existem muitas funcionalidades que podem ser incrementadas e melhoradas para melhor experiência do usuário, logo, possuo os seguintes planos para o futuro:
@@ -32,3 +32,6 @@ Sendo o primeiro projeto, existem muitas funcionalidades que podem ser increment
 Meu nome é Lucas R. Ximenes, comumente chamado de Jimeens, tenho 24 anos. Sou Bacharel em Física pela Universidade de São Paulo e atualmente estou buscando novos horizontes profissionais. Estou muito empenhado em estudar programação, principalmente front-end. 
 
 Se quiser entrar em contato, meu e-mail é lcsximenes@usp.br ou lcsximenes@gmail.com.
+
+## Licença do projeto:
+[MIT License]((https://opensource.org/licenses/MIT))
