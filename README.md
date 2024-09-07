@@ -34,4 +34,4 @@ Meu nome é Lucas R. Ximenes, comumente chamado de Jimeens, tenho 24 anos. Sou B
 Se quiser entrar em contato, meu e-mail é lcsximenes@usp.br ou lcsximenes@gmail.com.
 
 ## Licença do projeto:
-[MIT License]((https://opensource.org/licenses/MIT))
+[MIT License](https://opensource.org/licenses/MIT)
