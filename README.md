@@ -1,5 +1,8 @@
 # One Piece Fan site - Imersão Dev com Google Gemini
 
+## Aplicação Vercel
+https://one-piece-site-nu.vercel.app/
+
 ## Descrição do projeto
 Como grande fã do mangá e anime One Piece de Eiichiro Oda, decidi criar um simples site com algumas informações que possam ser interessantes para um site sobre esta grande obra. A aplicação possui uma pequena base de dados com alguns personagens que escolhi para explorar a funcionalidade do site.
 
