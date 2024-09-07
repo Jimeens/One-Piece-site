@@ -1,0 +1,1109 @@
+/* -------------------------------------------- */
+/* Importa a fonte Chakra Petch do Google Fonts */
+/* -------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* -------------------------- */
+/* Estiliza o corpo da página */
+/* -------------------------- */
+body {
+    font-family:         "Chakra Petch", sans-serif;        /* Define a fonte padrão */
+    background-image:    url(images/One-Piece-Pattern.png); /* Insere uma imagem no fundo da página */
+    background-position: center center;                     /* Define a posição da imagem */
+    background-color:  #2c2926;                           /* Define a cor de fundo do body */
+    display:             flex;                              /* Usa Flexbox para layout */
+    flex-direction:      column;                            /* Alinha os itens na vertical */
+    align-items:         center;                            /* Centraliza os itens horizontalmente */
+    justify-content:     center;                            /* Centraliza os itens verticalmente */
+    height:              100vh;                             /* Preenche a altura total da viewport */
+    margin:              0;                                 /* Remove a margem padrão */
+    padding:             0;                                 /* Remove o padding padrão */
+    overflow:            auto;                              /* Define um scroll quando necessário */
+}
+
+/* ----------------------------*/
+/* Estiliza o header da página */
+/* --------------------------- */
+header {
+    height:        6rem; /* Define a altura do header */
+    width:         100%; /* Define o comprimento do header */
+    margin-bottom: 2rem; /* Define a margem inferior ao header */
+}
+
+/* --------------------------- */
+/* Estiliza a imagem do header */
+/* --------------------------- */
+.img_header {
+    height:              6rem;          /* Define a altura da imagem de fundo do header */
+    background-position: center center; /* Define a posição da imagem de fundo do header */
+}
+
+/* ------------------------- */
+/* Estiliza o main da página */
+/* ------------------------- */
+main {
+    display:        flex;   /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    height:         100vh;  /* Preenche a altura total da viewport */
+    width:          100%;   /* Define o comprimento máximo */
+    margin-bottom:  5rem;   /* Remove a margem padrão */
+    padding:        0;      /* Remove o padding padrão */
+    overflow:       auto;   /* Define um scroll quando necessário */
+}
+
+/* ---------------------- */
+/* Estiliza os títulos h1 */
+/* ---------------------- */
+h1 {
+    font-size:      2.5rem; /* Tamanho da fonte */
+    text-align:     center; /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+}
+
+/* ---------------------------- */
+/* Estiliza as seções da página */
+/* ---------------------------- */
+section {
+    display:        flex;   /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items:    center; /* Centraliza os itens horizontalmente */
+    margin-bottom:  1.5rem; /* Espaçamento abaixo de cada seção */
+    margin-top:     1.5rem; /* Espaçamento acima de cada seção */
+}
+
+/* -------------------------------- */
+/* Cria uma nova classe para seções */
+/* -------------------------------- */
+.luffy {
+    background-color:  #fff4e6;                  /* Define a cor de fundo */
+    background-image:    url(images/Luffy-g5.png); /* Insere uma imagem de fundo */
+    background-repeat:   no-repeat;                /* Faz com que a imagem não se repita */
+    background-position: left bottom;              /* Define a posição da imagem de fundo */
+    background-size:     580px;                    /* Define a altura da imagem de fundo */
+    width:               100%;                     /* Define o comprimento do fundo como 100% da tela */
+    height:              35rem;                    /* Define a altura do fundo */
+    color:             #2c2926;                  /* Define a cor do texto dentro desse ambiente*/
+}
+
+/* -------------------------------- */
+/* Cria uma nova classe para seções */
+/* -------------------------------- */
+.dragon {
+    background-color:  #fff4e6;                /* Define a cor de fundo */
+    background-image:    url(images/Dragon.png); /* Insere uma imagem de fundo */
+    background-repeat:   no-repeat;              /* Faz com que a imagem não se repita */
+    background-position: left bottom;            /* Define a posição da imagem de fundo*/
+    background-size:     550px;                  /* Define a altura da imagem de fundo*/
+    width:               100%;                   /* Define o comprimento do fundo como 100% da tela */
+    height:              25rem;                  /* Define a altura do fundo */
+    color:             #2c2926;                /* Define a cor do texto dentro desse ambiente*/
+}
+
+/* -------------------------------- */
+/* Cria uma nova classe para seções */
+/* -------------------------------- */
+.roger {
+    background-color:  #2c2926;               /* Define a cor de fundo */
+    background-image:    url(images/Roger.png); /* Insere uma imagem de fundo */
+    background-repeat:   no-repeat;             /* Faz com que a imagem não se repita */
+    background-position: right bottom;          /* Define a posição da imagem de fundo*/
+    background-size:     510px;                 /* Define a altura da imagem de fundo*/
+    width:               100%;                  /* Define o comprimento do fundo como 100% da tela */
+    height:              33rem;                 /* Define a altura do fundo */
+    color:             #fff4e6;               /* Define a cor do texto dentro desse ambiente*/
+}
+
+/* -------------------------------- */
+/* Cria uma nova classe para seções */
+/* -------------------------------- */
+.manga-last {
+    background-color: #c78f3d;
+    width: 100%;
+    height: 35rem;
+}
+
+/* -------------------------------- */
+/* Cria uma nova classe para seções */
+/* -------------------------------- */
+.anime-last {
+    background-color: #fff4e6;
+    width: 100%;
+    height: 35rem;
+}
+
+/* -------------------------------- */
+/* Cria uma nova classe para seções */
+/* -------------------------------- */
+.arcs {
+    background-color: #2c2926;
+    width: 100%;
+    height: 35rem;
+}
+
+/* -------------------------------- */
+/* Cria uma nova classe para seções */
+/* -------------------------------- */
+.resultado {
+    background-image: url(images/map.png);
+    background-repeat: no-repeat;
+    background-color: #fff4e6;
+    width: 100%;
+    height: 100vh;
+}
+
+/* ------------------------------------ */
+/* Estiliza os inputs dentro das seções */
+/* ------------------------------------ */
+section input {
+    text-align:    center;     /* Centraliza o texto da pesquisa */
+    width:         52rem;      /* Largura dos inputs */
+    border:        none;       /* Remove a borda padrão */
+    padding:       1rem;       /* Espaçamento interno */
+    border-radius: 1.5rem;     /* Borda arredondada */
+    margin-bottom: 1rem;       /* Espaçamento abaixo dos inputs */
+    color:       #45474B;    /* Cor do texto */
+    font-size:     1rem;       /* Tamanho da fonte */
+    box-sizing:    border-box; /* Inclui padding e border na largura total */
+}
+
+/* --------------------------- */
+/* Estiliza os botões da seção */
+/* --------------------------- */
+section button {
+    padding:       0.6rem 1rem; /* Espaçamento interno do botão */
+    margin-top:    0.5rem;      /* Espaçamento acima do botão */
+    border:        none;        /* Remove a borda padrão */
+    border-radius: 1.5rem;      /* Borda arredondada */
+    cursor:        pointer;     /* Muda o cursor para indicar que é clicável */
+}
+
+/* ------------------------------ */
+/* Estiliza o Botão para ser azul */
+/* ------------------------------ */
+.button1 {
+    background-image: linear-gradient(125deg,#3fa3da,#052638); /* Faz um degradê no botão */
+    color:          #fff4e6;                                     /* Cor do texto do botão */
+    font-size:        1rem;                                        /* Tamanho da fonte */
+}
+
+/* ----------------------------------- */
+/* Adiciona efeito hover ao botão azul */
+/* ----------------------------------- */
+.button1:hover {
+    background-image: linear-gradient(45deg,#3fa3da,#052638); /* Faz um degradê no botão */
+    color:          #fff4e6;                                    /* Cor do texto do botão */
+    box-shadow:       0 4px 8px rgba(0, 0, 0, 0.2);             /* Adiciona uma sombra */
+}
+
+/* ---------------------------------- */
+/* Cria cards para a página principal */
+/* ---------------------------------- */
+.card {
+    background-color: #fff4e6;
+    background-size:    cover;
+    height:             22rem;
+    width:              16rem;
+    border-radius:      0.6rem;
+    margin-left:        0.5rem;
+    margin-right:       0.5rem;
+    box-shadow:         0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* ----------------------------- */
+/* Adiciona efeito hover ao card */
+/* ----------------------------- */
+.card:hover {
+    cursor: pointer;
+}
+
+/* -------------------------------------------------- */
+/* Cria uma seção para inserir os cards de introdução */
+/* -------------------------------------------------- */
+.welcome-card-section {
+    display:         flex;
+    flex-direction:  row;
+    text-align:      center;
+    justify-content: first baseline;
+    width:           52rem;          /* Largura máxima da caixa de resultados */
+    height:          28rem;          /* Altura máxima da caixa de resultados */
+    overflow-x:      auto;
+    overflow-y:      hidden;
+    margin-top:      1rem;           /* Espaçamento acima da caixa de resultados */
+    margin-left:     auto;
+    margin-right:    auto;
+    margin-bottom:   1rem;
+    padding:         0rem;           /* Espaçamento interno */
+    border-radius:   0.6rem;         /* Borda arredondada */
+}
+
+/* ------------------------------------------- */
+/* Define um espaçamento específico para texto */
+/* ------------------------------------------- */
+.h2-space{
+    margin-top: 0.25rem;
+    margin-bottom: -0.5rem;
+    text-transform: uppercase;
+}
+
+/* -------------------------------------------------------------- */
+/* Define um ambiente para inserir informações sobre os destaques */
+/* -------------------------------------------------------------- */
+.featured-environment {
+    display:         flex;
+    flex-direction:  row;
+    text-align:      center;
+    justify-content: first baseline;
+    width:           52rem;          /* Largura máxima da caixa de resultados */
+    height:          28rem;          /* Altura máxima da caixa de resultados */
+    overflow-x:      auto;
+    overflow-y:      hidden;
+    margin-top:      1rem;           /* Espaçamento acima da caixa de resultados */
+    margin-left:     auto;
+    margin-right:    auto;
+    margin-bottom:   1rem;
+    padding:         0rem;           /* Espaçamento interno */
+    border-radius:   0.6rem;         /* Borda arredondada */
+}
+
+/* -------------------------------------- */
+/* Modifica o fundo da barra de rolamento */
+/* -------------------------------------- */
+.featured-environment::-webkit-scrollbar {
+    border: none;
+    height: 11px;
+}
+
+/* -------------------------------------- */
+/* Modifica a barra da barra de rolamento */
+/* -------------------------------------- */
+.featured-environment::-webkit-scrollbar-thumb {
+    background-color:#8b8b8b;
+    border-radius: 20px;
+}
+
+/* ----------------------------------------------------------------- */
+/* Cria um efeito hover para quando o mouse passar por cima da barra */
+/* ----------------------------------------------------------------- */
+.featured-environment::-webkit-scrollbar-thumb:hover {
+    background-color:#636363;
+    border-radius: 20px;
+}
+
+/* ------------------------------------------------------ */
+/* Define um círculo para inserção de imagens de destaque */
+/* ------------------------------------------------------ */
+.featured-circle{
+    background-color: #2c2926;
+    background-size: cover;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 3.5rem;
+    z-index: 2;
+    box-shadow:         0 2px 4px rgba(0, 0, 0, 1);
+    position: relative;
+    left: 3rem;
+    margin-left: -3rem;
+}
+
+/* ---------------------------------------- */
+/* Cria uma seção para inserir os destaques */
+/* ---------------------------------------- */
+.featured-section {
+    display:         flex;
+    flex-direction:  column;
+    text-align:      center;
+    width:           54rem;          /* Largura máxima da caixa de resultados */
+    height:          24rem;          /* Altura máxima da caixa de resultados */
+    overflow-x:      auto;
+    overflow-y:      hidden;
+    margin-top:      1rem;           /* Espaçamento acima da caixa de resultados */
+    margin-left:     auto;
+    margin-right:    auto;
+    margin-bottom:   1rem;
+    padding:         0rem;           /* Espaçamento interno */
+    border-radius:   0.6rem;         /* Borda arredondada */
+}
+
+/* ----------------------------------------------------------- */
+/* Define uma formatação de texto específica para os destaques */
+/* ----------------------------------------------------------- */
+.featured-text {
+    text-align: left;
+    background-color: #fff4e6;
+    color: #2c2926;
+    width: 54rem;
+    height: 5rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    padding: 0.5rem;
+    padding-left: 4rem;
+    padding-right: 1rem;
+    position: relative;
+    left: 0rem;
+    z-index: 1;
+}
+
+/* --------------------------------------------------------- */
+/* Define um ambiente para inserir informações sobre o mangá */
+/* --------------------------------------------------------- */
+.manga-environment {
+    display:         flex;
+    flex-direction:  row;
+    text-align:      center;
+    width:           54rem;          /* Largura máxima da caixa de resultados */
+    height:          35rem;          /* Altura máxima da caixa de resultados */
+    overflow-x:      auto;
+    overflow-y:      hidden;
+    margin-top:      auto;           /* Espaçamento acima da caixa de resultados */
+    margin-left:     auto;
+    margin-right:    auto;
+    margin-bottom:   auto;
+    padding:         0rem;           /* Espaçamento interno */
+}
+
+/* ---------------------------------------------------- */
+/* Define uma área para inserir as informações do mangá */
+/* ---------------------------------------------------- */
+.manga-resume {
+    width: 16rem;
+    height: 28rem;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ----------------------------- */
+/* Define uma formatação para h1 */
+/* ----------------------------- */
+.manga-resume h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    margin-bottom: -1.3rem;
+    margin-top: -1.3rem;
+}
+
+/* ----------------------------- */
+/* Define uma formatação para h2 */
+/* ----------------------------- */
+.manga-resume h2 {
+    font-size: 1.6rem;
+    font-weight: 1000;
+}
+
+/* ----------------------------- */
+/* Define uma formatação para h3 */
+/* ----------------------------- */
+.manga-resume h3 {
+    font-family:'Times New Roman', Times, serif;
+    color: #fff4e6;
+    font-style: italic;
+    font-weight: 100;
+}
+
+/* ----------------------------- */
+/* Define uma formatação para h4 */
+/* ----------------------------- */
+.manga-resume h4 {
+    font-family:'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* ----------------------------- */
+/* Define uma formatação para h5 */
+/* ----------------------------- */
+.manga-resume h5 {
+    color: #fff4e6;
+    align-items: center;
+}
+
+/* ---------------------------- */
+/* Define uma formatação para p */
+/* ---------------------------- */
+.manga-resume p {
+    font-family:'Cabin', sans-serif;
+    color: #fff4e6;
+    font-weight: 500;
+}
+
+/* ---------------------------- */
+/* Define uma formatação para a */
+/* ---------------------------- */
+.manga-resume a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* --------------------------- */
+/* Cria um efeito hover para a */
+/* --------------------------- */
+.manga-resume a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+/* ------------------------------------- */
+/* Define uma formatação para descrições */
+/* ------------------------------------- */
+.manga-description {
+    color: #45474B; /* Cor do texto */
+    margin: 0.5rem 0.5rem 0.1rem 0.1rem; /* Margem acima e abaixo */
+    padding-right: 0.5rem;
+    max-height: 10rem;
+    overflow-y: auto;
+    text-align: left;
+}
+
+/* -------------------------------------- */
+/* Modifica o fundo da barra de rolamento */
+/* -------------------------------------- */
+.manga-description::-webkit-scrollbar {
+    border: none;
+    width: 11px;
+}
+
+/* -------------------------------------- */
+/* Modifica a barra da barra de rolamento */
+/* -------------------------------------- */
+.manga-description::-webkit-scrollbar-thumb {
+    background-color:#8b8b8b;
+    border-radius: 20px;
+}
+
+/* ----------------------------------------------------------------- */
+/* Cria um efeito hover para quando o mouse passar por cima da barra */
+/* ----------------------------------------------------------------- */
+.manga-description::-webkit-scrollbar-thumb:hover {
+    background-color:#636363;
+    border-radius: 20px;
+}
+
+/* --------------------------------------------------------- */
+/* Define um ambiente para inserir informações sobre o anime */
+/* --------------------------------------------------------- */
+.anime-environment {
+    display:         flex;
+    flex-direction:  row;
+    text-align:      center;
+    width:           54rem;          /* Largura máxima da caixa de resultados */
+    height:          35rem;          /* Altura máxima da caixa de resultados */
+    overflow-x:      auto;
+    overflow-y:      hidden;
+    margin-top:      auto;           /* Espaçamento acima da caixa de resultados */
+    margin-left:     auto;
+    margin-right:    auto;
+    margin-bottom:   auto;
+    padding:         0rem;           /* Espaçamento interno */
+}
+
+/* ---------------------------------------------------- */
+/* Define uma área para inserir as informações do anime */
+/* ---------------------------------------------------- */
+.anime-resume {
+    width: 16rem;
+    height: 28rem;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ------------------------------ */
+/* Define uma formatação para img */
+/* ------------------------------ */
+.anime-resume img {
+    width: 16rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+
+/* ----------------------------- */
+/* Define uma formatação para h1 */
+/* ----------------------------- */
+.anime-resume h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    /* margin-bottom: -1.3rem; */
+    margin-top: -1.3rem;
+    color: #c78f3d;
+}
+
+/* ----------------------------- */
+/* Define uma formatação para h2 */
+/* ----------------------------- */
+.anime-resume h2 {
+    font-size: 1.2rem;
+    font-weight: 1000;
+    margin-top: -1.3rem;
+    margin-bottom: -1.3rem;
+    color: #c78f3d;
+}
+
+/* ----------------------------- */
+/* Define uma formatação para h3 */
+/* ----------------------------- */
+.anime-resume h3 {
+    font-size: 1.6rem;
+    font-weight: 1000;
+    margin-top: -1.3rem;
+    color: #000000;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+/* ----------------------------- */
+/* Define uma formatação para h4 */
+/* ----------------------------- */
+.anime-resume h4 {
+    font-family:'Times New Roman', Times, serif;
+    color: #c78f3d;
+    font-style: italic;
+    font-weight: 100;
+}
+
+/* ----------------------------- */
+/* Define uma formatação para h5 */
+/* ----------------------------- */
+.anime-resume h5 {
+    font-family:'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #c78f3d;
+    margin-top: 0.8rem;
+}
+
+/* ---------------------------- */
+/* Define uma formatação para p */
+/* ---------------------------- */
+.anime-resume p {
+    font-family:'Cabin', sans-serif;
+    color: #6A6A6A;
+    font-weight: 500;
+}
+
+/* ---------------------------- */
+/* Define uma formatação para a */
+/* ---------------------------- */
+.anime-resume a {
+    text-decoration: none;
+    color: #c78f3d;
+}
+
+/* --------------------------- */
+/* Cria um efeito hover para a */
+/* --------------------------- */
+.anime-resume a:hover {
+    text-decoration: none;
+    color: #9b5f05;
+}
+
+/* ------------------------------------- */
+/* Define uma formatação para descrições */
+/* ------------------------------------- */
+.anime-description {
+    color: #45474B; /* Cor do texto */
+    margin: 0.5rem 0.5rem 0.1rem 0.1rem; /* Margem acima e abaixo */
+    padding-right: 0.5rem;
+    max-height: 4.5rem;
+    overflow-y: auto;
+    text-align: left;
+}
+
+/* -------------------------------------- */
+/* Modifica o fundo da barra de rolamento */
+/* -------------------------------------- */
+.anime-description::-webkit-scrollbar {
+    border: none;
+    width: 11px;
+}
+
+/* -------------------------------------- */
+/* Modifica a barra da barra de rolamento */
+/* -------------------------------------- */
+.anime-description::-webkit-scrollbar-thumb {
+    background-color:#8b8b8b;
+    border-radius: 20px;
+}
+
+/* ----------------------------------------------------------------- */
+/* Cria um efeito hover para quando o mouse passar por cima da barra */
+/* ----------------------------------------------------------------- */
+.anime-description::-webkit-scrollbar-thumb:hover {
+    background-color:#636363;
+    border-radius: 20px;
+}
+
+/* ---------------------------------------------------------- */
+/* Define um ambiente para inserir informações sobre os arcos */
+/* ---------------------------------------------------------- */
+.arcs-environment {
+    display:         flex;
+    flex-direction:  row;
+    text-align:      center;
+    width:           54rem;          /* Largura máxima da caixa de resultados */
+    height:          35rem;          /* Altura máxima da caixa de resultados */
+    overflow-x:      auto;
+    overflow-y:      hidden;
+    margin-top:      auto;           /* Espaçamento acima da caixa de resultados */
+    margin-left:     auto;
+    margin-right:    auto;
+    margin-bottom:   auto;
+    padding:         0rem;           /* Espaçamento interno */
+}
+
+/* ----------------------------------------------------- */
+/* Define uma área para inserir as informações dos arcos */
+/* ----------------------------------------------------- */
+.arcs-resume {
+    width: 16rem;
+    height: 28rem;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    border: #c78f3d 2px solid;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 1rem;
+}
+
+/* ------------------------------ */
+/* Define uma formatação para img */
+/* ------------------------------ */
+.arcs-resume img {
+    width: 16rem;
+    border-radius: 0.6rem;
+}
+
+/* ----------------------------- */
+/* Define uma formatação para h1 */
+/* ----------------------------- */
+.arcs-resume h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    margin-bottom: -1.3rem;
+    margin-top: -1.3rem;
+    color: #fff4e6;
+}
+
+/* ----------------------------- */
+/* Define uma formatação para h2 */
+/* ----------------------------- */
+.arcs-resume h2 {
+    font-size: 1.4rem;
+    font-weight: 1000;
+    color: #fff4e6;
+}
+
+/* ----------------------------- */
+/* Define uma formatação para h3 */
+/* ----------------------------- */
+.arcs-resume h3 {
+    font-family:'Times New Roman', Times, serif;
+    color: #c78f3d;
+    font-style: italic;
+    font-weight: 100;
+}
+
+/* ----------------------------- */
+/* Define uma formatação para h4 */
+/* ----------------------------- */
+.arcs-resume h4 {
+    font-family:'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: -1rem;
+    color: #c78f3d;
+}
+
+/* ----------------------------- */
+/* Define uma formatação para h5 */
+/* ----------------------------- */
+.arcs-resume h5 {
+    font-family:'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 2rem;
+    color: #fff4e6;
+    align-items: center;
+}
+
+/* ---------------------------- */
+/* Define uma formatação para p */
+/* ---------------------------- */
+.arcs--resume p {
+    font-family:'Cabin', sans-serif;
+    color: #fff4e6;
+    font-weight: 500;
+}
+
+/* ---------------------------- */
+/* Define uma formatação para a */
+/* ---------------------------- */
+.arcs-resume a {
+    text-decoration: none;
+    color: #fff4e6;
+}
+
+/* --------------------------- */
+/* Cria um efeito hover para a */
+/* --------------------------- */
+.arcs-resume a:hover {
+    text-decoration: none;
+    color: #fff4e677;
+}
+
+/* ------------------------------------- */
+/* Define uma formatação para descrições */
+/* ------------------------------------- */
+.arcs-description {
+    color: #fff4e6; /* Cor do texto */
+    margin: 0.5rem 0.5rem 0.1rem 0.1rem; /* Margem acima e abaixo */
+    padding-right: 0.5rem;
+    max-height: 4rem;
+    overflow-y: auto;
+    text-align: left;
+}
+
+/* -------------------------------------- */
+/* Modifica o fundo da barra de rolamento */
+/* -------------------------------------- */
+.arcs-description::-webkit-scrollbar {
+    border: none;
+    width: 11px;
+}
+
+/* -------------------------------------- */
+/* Modifica a barra da barra de rolamento */
+/* -------------------------------------- */
+.arcs-description::-webkit-scrollbar-thumb {
+    background-color:#8b8b8b;
+    border-radius: 20px;
+}
+
+/* ----------------------------------------------------------------- */
+/* Cria um efeito hover para quando o mouse passar por cima da barra */
+/* ----------------------------------------------------------------- */
+.arcs-description::-webkit-scrollbar-thumb:hover {
+    background-color:#636363;
+    border-radius: 20px;
+}
+
+/* --------------------------------------------------------- */
+/* Define um ambiente para inserir os resultados da pesquisa */
+/* --------------------------------------------------------- */
+.resultados-pesquisa {
+    display:         flex;
+    flex-direction:  row;
+    text-align:      center;
+    justify-content: first baseline;
+    width:           57.25rem;          /* Largura máxima da caixa de resultados */
+    height:          32rem;          /* Altura máxima da caixa de resultados */
+    overflow-x:      auto;
+    overflow-y:      hidden;
+    margin-top:      1rem;           /* Espaçamento acima da caixa de resultados */
+    margin-left:     auto;
+    margin-right:    auto;
+    margin-bottom:   1rem;
+    padding:         0rem;           /* Espaçamento interno */
+    border-radius:   0.6rem;         /* Borda arredondada */
+}
+
+/* ---------------------------------------------------------- */
+/* Define uma área para inserir as informações dos resultados */
+/* ---------------------------------------------------------- */
+.item-resultado-pesquisa {
+    background: #FFFFFF; /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    min-width: 16rem;
+    max-width: 16rem;
+}
+
+/* ------------------------------ */
+/* Define uma formatação para img */
+/* ------------------------------ */
+.item-resultado-pesquisa img {
+    width: 16rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+
+/* ----------------------------- */
+/* Define uma formatação para h2 */
+/* ----------------------------- */
+.item-resultado-pesquisa h2 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #222831; /* Cor do texto */
+}
+
+/* ---------------------------- */
+/* Define uma formatação para a */
+/* ---------------------------- */
+.item-resultado-pesquisa a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #30475E; /* Cor do texto dos links */
+}
+
+/* --------------------------- */
+/* Cria um efeito hover para a */
+/* --------------------------- */
+.item-resultado-pesquisa a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* ------------------------------------- */
+/* Define uma formatação para descrições */
+/* ------------------------------------- */
+.descricao-meta-pesquisa {
+    color: #45474B; /* Cor do texto */
+    padding-right: 0.5rem;
+    height: 3.5rem;
+    overflow-y: auto;
+    text-align: left;
+}
+
+/* -------------------------------------- */
+/* Modifica o fundo da barra de rolamento */
+/* -------------------------------------- */
+.descricao-meta-pesquisa::-webkit-scrollbar {
+    border: none;
+    width: 11px;
+}
+
+/* -------------------------------------- */
+/* Modifica a barra da barra de rolamento */
+/* -------------------------------------- */
+.descricao-meta-pesquisa::-webkit-scrollbar-thumb {
+    background-color:#8b8b8b;
+    border-radius: 20px;
+}
+
+/* ----------------------------------------------------------------- */
+/* Cria um efeito hover para quando o mouse passar por cima da barra */
+/* ----------------------------------------------------------------- */
+.descricao-meta-pesquisa::-webkit-scrollbar-thumb:hover {
+    background-color:#636363;
+    border-radius: 20px;
+}
+
+/* ------------------------------------------------------------ */
+/* Modifica o fundo da barra de rolamento principal do ambiente */
+/* ------------------------------------------------------------ */
+.resultados-pesquisa::-webkit-scrollbar {
+    border: none;
+    height: 11px;
+}
+
+/* ----------------------------------------------------------------- */
+/* Cria um efeito hover para quando o mouse passar por cima da barra */
+/* ----------------------------------------------------------------- */
+.resultados-pesquisa::-webkit-scrollbar-thumb {
+    background-color:#8b8b8b;
+    border-radius: 20px;
+}
+
+/* ----------------------------------------------------------------- */
+/* Cria um efeito hover para quando o mouse passar por cima da barra */
+/* ----------------------------------------------------------------- */
+.resultados-pesquisa::-webkit-scrollbar-thumb:hover {
+    background-color:#636363;
+    border-radius: 20px;
+}
+
+/* -------------------------------------------------------- */
+/* Faz uma barra horizontal similar ao do Logo do One Piece */
+/* -------------------------------------------------------- */
+.header-sep {
+    background-image: linear-gradient(to right,#3fa3da,#052638);
+    width:            100%;
+    height:           0.4rem;
+    margin-top:       0.5rem;
+    border-top:       solid 3px #000000;
+    border-bottom:    solid 3px #000000;
+}
+
+/* ------------------------------------------------------------------- */
+/* Insere segmento de cordas repetidamente em cima da barra horizontal */
+/* ------------------------------------------------------------------- */
+.corda {
+    display:             flex;
+    background-image:    url(images/One-Piece-Corda.png);
+    background-position: center center;
+    background-size:     7.1rem;
+    background-repeat:   repeat-x;
+    position:            relative;
+    top:                 -10.1px;
+}
+
+/* ------------------------------- */
+/* Estiliza cada item de resultado */
+/* ------------------------------- */
+.item-resultado {
+    background:  #FFFFFF;                        /* Cor de fundo dos itens */
+    border-radius: 0.6rem;                         /* Borda arredondada */
+    padding:       1rem;                           /* Espaçamento interno */
+    margin-left:   0.5rem;                         /* Espaçamento à esquerda dos itens */
+    margin-right:  0.5rem;                         /* Espaçamento à direita dos itens */
+    box-shadow:    0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    min-width:     15rem;
+    max-width:     15rem;
+    height:        19rem;
+}
+
+/* -------------------------------------- */
+/* Modifica o fundo da barra de rolamento */
+/* -------------------------------------- */
+.descricao-meta::-webkit-scrollbar {
+    border: none;
+    width: 11px;
+}
+
+/* -------------------------------------- */
+/* Modifica a barra da barra de rolamento */
+/* -------------------------------------- */
+.descricao-meta::-webkit-scrollbar-thumb {
+    background-color:#8b8b8b;
+    border-radius: 20px;
+}
+
+/* ----------------------------------------------------------------- */
+/* Cria um efeito hover para quando o mouse passar por cima da barra */
+/* ----------------------------------------------------------------- */
+.descricao-meta::-webkit-scrollbar-thumb:hover {
+    background-color:#636363;
+    border-radius: 20px;
+}
+
+/* ----------------------------- */
+/* Define uma formatação para h2 */
+/* ----------------------------- */
+.item-resultado h2 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #222831; /* Cor do texto */
+}
+
+/* ---------------------------- */
+/* Define uma formatação para a */
+/* ---------------------------- */
+.item-resultado a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #30475E; /* Cor do texto dos links */
+}
+
+/* --------------------------- */
+/* Cria um efeito hover para a */
+/* --------------------------- */
+.item-resultado a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* ------------------------------------------------------- */
+/* Estiliza a descrição meta dentro dos itens de resultado */
+/* ------------------------------------------------------- */
+.descricao-meta {
+    color: #45474B; /* Cor do texto */
+    margin: 0.5rem 0.5rem 0.1rem 0.1rem; /* Margem acima e abaixo */
+    padding: 0.3rem;
+    max-height: 6.5rem;
+    overflow-y: auto;
+    text-align: center;
+}
+
+/* ---------------- */
+/* Estiliza um link */
+/* ---------------- */
+.link2 {
+    text-decoration: none;
+    color: #2c2926;
+}
+
+/* ---------------------------------------------------------- */
+/* Cria um efeito hover no link quando passa o mouse por cima */
+/* ---------------------------------------------------------- */
+.link2:hover {
+    text-decoration: underline;
+}
+
+/* --------------------------- */
+/* Estiliza o rodapé da página */
+/* --------------------------- */
+footer {
+    background-color: #fff4e6;  /* Cor de fundo do rodapé */
+    color:            #45474B;  /* Cor do texto */
+    text-align:         center;   /* Alinha o texto ao centro */
+    padding:            0;        /* Espaçamento interno */
+    width:              100%;     /* Largura total da página */
+    height:             5rem;
+    position:           absolute; /* Posiciona o rodapé */
+    bottom:             0;        /* Alinha ao fundo da página */
+    font-size:          1rem;     /* Tamanho da fonte */
+}
+
+/* ---------------------------------------- */
+/* Formatação do texto conforme a resolução */
+/* ---------------------------------------- */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem; /* Tamanho da fonte em telas menores */
+        letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
+    }
+
+    section input {
+        width: 25rem; /* Largura dos inputs em telas menores */
+        padding: 0.8rem; /* Espaçamento interno em telas menores */
+    }
+
+    .resultados-pesquisa {
+        width: 40rem; /* Largura da caixa de resultados em telas menores */
+        height: 40vh; /* Altura da caixa de resultados em telas menores */
+    }
+
+    .item-resultado h2 {
+        font-size: 1.3rem; /* Tamanho da fonte dos títulos em telas menores */
+    }
+}
+
+/* ----------------------------- */
+/* Responsividade para celulares */
+/* ----------------------------- */
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
+        letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
+    }
+
+    section input {
+        width: 17rem; /* Largura total dos inputs em telas pequenas */
+    }
+
+    section button {
+        padding: 0.6rem 1rem; /* Espaçamento interno do botão em telas pequenas */
+        font-size: 0.9rem; /* Tamanho da fonte do botão em telas pequenas */
+    }
+
+    .resultados-pesquisa {
+        width: 90%; /* Largura da caixa de resultados em telas pequenas */
+        height: 50vh; /* Altura da caixa de resultados em telas pequenas */
+    }
+
+    .item-resultado h2 {
+        font-size: 1.1rem; /* Tamanho da fonte dos títulos em telas pequenas */
+    }
+
+    footer {
+        font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
+    }
+}
