@@ -32,6 +32,3 @@ Sendo o primeiro projeto, existem muitas funcionalidades que podem ser increment
 Meu nome é Lucas R. Ximenes, comumente chamado de Jimeens, tenho 24 anos. Sou Bacharel em Física pela Universidade de São Paulo e atualmente estou buscando novos horizontes profissionais. Estou muito empenhado em estudar programação, principalmente front-end. 
 
 Se quiser entrar em contato, meu e-mail é lcsximenes@usp.br ou lcsximenes@gmail.com.
-
-## Licença do projeto:
-[MIT License](https://opensource.org/licenses/MIT)
