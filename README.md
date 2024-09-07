@@ -1,2 +1,2 @@
-# Imers-o-One-Piece
+# Imersão-One-Piece
 Um simples site teste feito durante a Imersão Dev da Alura com o Google Gemini
